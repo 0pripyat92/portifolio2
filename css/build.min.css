@@ -5868,7 +5868,7 @@ section.home-top a.toggle {
 }
 
 section.home-top .bg-image {
-    margin-top: 60px;
+   /* margin-top: 60px; */
     background: url(../assets/images/bg_home.png) no-repeat;
     background-size: auto 69%;
     background-position: top 0 center;
@@ -5880,7 +5880,7 @@ section.home-top .bg-image {
     top: 0;
     left: 0;
     z-index: 1;
-    visibility: hidden
+    visibility: hidden;
 }
 
 @media (max-width: 767px) {
@@ -5893,7 +5893,7 @@ section.home-top .bg-image img {
     max-width: 100%;
     position: absolute;
     opacity: 0;
-    visibility: hidden
+    visibility: hidden;
 }
 
 section.home-top .wrapper {
@@ -5911,11 +5911,12 @@ section.home-top .main-copy {
     }
 
     section.home-top .bg-image {
-        background-position: top 0 right 0
+        background-position: top 0 right 0;
+        
     }
 
     section.home-top .main-copy {
-        width: 58.333333333%
+        width: 58.333333333%;
     }
 }
 
@@ -5927,7 +5928,7 @@ section.home-top .main-copy {
     section.home-top .bg-image {
         margin-top: 0;
         background-position: top 20px right -120px;
-        min-height: 950px
+        min-height: 950px;
     }
 
     section.home-top a.toggle {
