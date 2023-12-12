@@ -5868,7 +5868,7 @@ section.home-top a.toggle {
 }
 
 section.home-top .bg-image {
-   /* margin-top: 60px; */
+    margin-top: 60px;
     background: url(../assets/images/bg_home.png) no-repeat;
     background-size: auto 69%;
     background-position: top 0 center;
