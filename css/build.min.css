@@ -1523,6 +1523,7 @@ strong {
 
 .iconStudying{
 height: 30px;
+justify-content: flex-start;
 width: 30px;
 display: flex;
 gap: 10px;
