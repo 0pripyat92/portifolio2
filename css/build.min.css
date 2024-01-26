@@ -3299,7 +3299,8 @@ footer#footer ul {
 footer#footer ul>li {
     list-style-type: none;
     font-weight: 500;
-    color: #878a8f
+    color: #878a8f;
+    
 }
 
 footer#footer ul.project-links,footer#footer ul.social-links {
@@ -3309,7 +3310,7 @@ footer#footer ul.project-links,footer#footer ul.social-links {
     display: flex;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap
+    flex-wrap: wrap;
 }
 
 footer#footer ul.project-links>li,footer#footer ul.social-links>li {
@@ -8332,6 +8333,21 @@ section.case-study-next-project>div .desc i {
 
 
 .tamanhoimginsta{
+  gap: 45px;
+  margin: auto;
+  display: flexbox;
+}
+
+.filhoinsta{
     width: 300px;
     height: 300px;
+    justify-content: space-between; 
+    align-items: center;
+    text-decoration: none;
 }
+
+.filhoinsta:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
