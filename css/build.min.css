@@ -1603,16 +1603,14 @@ strong {
     min-width: 370px;
 }
 
-
-
 .iconStudyingitem{
     height: 30px;
     width: 30px;
-    
 }
 
-.Studying{
-
+.iconStudyingite:hover{
+    transform: scale(1.1);
+    transition: .2s;
 }
 
 .Repetition{
@@ -3221,7 +3219,7 @@ footer#footer .row>div:first-child {
 
 @media (min-width: 768px) and (min-height:620px) {
     footer#footer .row>div:nth-child(2),footer#footer .row>div:nth-child(3),footer#footer .row>div:nth-child(4) {
-        padding-right:30px
+        padding-right:70px
     }
 }
 
@@ -3231,11 +3229,11 @@ footer#footer .row>div:first-child {
     }
 
     footer#footer .row>div:first-child {
-        padding-right: 40px
+        padding-right: 70px
     }
 
     footer#footer .row>div:last-child {
-        margin-top: 40px
+        margin-top: 4px
     }
 }
 
@@ -3317,9 +3315,7 @@ footer#footer ul.project-links>li,footer#footer ul.social-links>li {
     width: 50%
 }
 
-footer#footer ul.contact-links>li {
-    width: 100%
-}
+
 
 footer#footer ul.project-links>li:nth-child(6),footer#footer ul.project-links>li:nth-child(7) {
     display: none
@@ -3332,30 +3328,6 @@ footer#footer ul.project-links>li:nth-child(6),footer#footer ul.project-links>li
 
     footer#footer ul.social-links>li {
         width: 100%
-    }
-}
-
-@media (min-width: 768px) and (min-height:620px),(min-width:1280px) {
-    footer#footer ul {
-        margin-top:10px
-    }
-
-    footer#footer ul.project-links>li:nth-child(6),footer#footer ul.project-links>li:nth-child(7) {
-        display: block
-    }
-}
-
-@media (min-width: 1280px) {
-    footer#footer ul.contact-links,footer#footer ul.project-links,footer#footer ul.social-links {
-        display:block
-    }
-
-    footer#footer ul.contact-links>li,footer#footer ul.project-links>li,footer#footer ul.social-links>li {
-        width: 100%
-    }
-
-    footer#footer ul.project-links>li:nth-child(6),footer#footer ul.project-links>li:nth-child(7) {
-        display: none
     }
 }
 
@@ -3431,7 +3403,7 @@ nav#nav {
 
 nav#nav .logo {
     position: absolute;
-    display: block;
+    display: flexbox;
     height: 46px;
     min-width: 167px;
     bottom: auto;
