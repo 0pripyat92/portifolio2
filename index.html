@@ -37,11 +37,11 @@
             var recaptchaOnloadCallback = function() {
                 if ($('#contact-recaptcha').length > 0 && typeof grecaptcha !== "undefined") {
                     if ($('#contact-recaptcha iframe').length < 1) {
-                        recaptchaObject = grecaptcha.render('contact-recaptcha', {
+                        ('contact-recaptcha', {
                            
                         });
                     } else {
-                        grecaptcha.reset(recaptchaObject);
+                        
                     }
                 }
             };
@@ -293,8 +293,9 @@
                                         <img class="iconStudyingitem"  src="assets/images/css3-original.svg" alt="CSS3">
                                         <img class="iconStudyingitem"  src="assets/images/javascript-original.svg" alt="javascript">
                                         <img class="iconStudyingitem"  src="assets/images/nodejs-png--400.png" alt="node.js">
-                                        <img class="iconStudyingitem"  src="assets/images/git-original.svg" alt="git-">
+                                        <img class="iconStudyingitem"  src="assets/images/git-original.svg" alt="git">
                                         <img class="iconStudyingitem"  src="assets/images/github-original.svg" alt="github">
+                                        <img class="iconStudyingitem"  src="assets/images/mysql-original.svg" alt="mysql">
                                         <img class="iconStudyingitem"  src="assets/images/bootstrap-original.svg" alt="bootstrap">
                                         <img class="iconStudyingitem"  src="assets/images/canva-original.svg" alt="canva">
                                         <img class="iconStudyingitem"  src="assets/images/figma-original.svg" alt="figma">
