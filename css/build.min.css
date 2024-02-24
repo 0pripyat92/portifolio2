@@ -8292,14 +8292,18 @@ section.case-study-next-project>div .desc i {
     margin: auto;
     display: flex;
     gap: 10px;
+    
 }
 
-.iconStudying{
-    
+.iconStudying{  
     margin-top: 10px;
     margin-bottom: 10px;
     gap: 10px;
     justify-content: flex-end;
+    
+}
+.ff{
+    text-decoration: none;
 }
 
 .tamanhoimginsta{
