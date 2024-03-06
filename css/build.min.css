@@ -249,17 +249,19 @@ progress {
 }
 
 a {
-    background-color: transparent
+    background-color: transparent;
+    text-decoration: none;
 }
 
 a:active,a:hover {
-    outline-width: 0
+    outline-width: 0;
+    text-decoration: none;
 }
 
 abbr[title] {
     border-bottom: none;
-    text-decoration: underline;
-    text-decoration: underline dotted
+    text-decoration: none;
+    text-decoration: none
 }
 
 b,strong {
@@ -607,7 +609,7 @@ section {
 }
 
 a:focus,button:focus,input:focus,select:focus,textarea:focus {
-    outline: 0
+    outline: 0;
 }
 
 a::-moz-focus-inner,button::-moz-focus-inner,input::-moz-focus-inner,select::-moz-focus-inner,textarea::-moz-focus-inner {
@@ -1493,15 +1495,13 @@ a::-moz-focus-inner,button::-moz-focus-inner,input::-moz-focus-inner,select::-mo
 }
 
 a {
-    color: #878a8f;
     text-decoration: none;
-    border-bottom: 1px solid rgba(135,138,143,.4);
-    transition: all .2s cubic-bezier(.3,0,.5,1)
 }
 
 a:active {
     color: #0f141e;
-    border-color: #0f141e
+    border-color: #0f141e;
+    text-decoration: none;
 }
 
 a.special,a.with-icon {
@@ -1509,13 +1509,15 @@ a.special,a.with-icon {
     color: #0f141e;
     border: 0 none;
     display: inline-block;
-    line-height: 1
+    line-height: 1;
+    text-decoration: none;
 }
 
 @media (min-width: 1280px) {
     a:hover {
         color:#0f141e;
-        border-color: #0f141e
+        border-color: #0f141e;
+        text-decoration: none;
     }
 
     a.special:after,a.with-icon:after {
@@ -1532,11 +1534,13 @@ a.special,a.with-icon {
         opacity: 0;
         -webkit-transform: translate(0,100%);
         -ms-transform: translate(0,100%);
-        transform: translate(0,100%)
+        transform: translate(0,100%);
+        text-decoration: none;
     }
 
     a.special:active:after,a.special:hover:after,a.with-icon:active:after,a.with-icon:hover:after {
-        opacity: 1
+        opacity: 1;
+        text-decoration: none;
     }
 }
 
@@ -1559,11 +1563,13 @@ p.small {
 
 p a .icon {
     width: 16px;
-    height: 16px
+    height: 16px;
+    text-decoration: none;
 }
 
 p a .icon svg {
-    top: .125em
+    top: .125em;
+    text-decoration: none;
 }
 
 p a .icon--on-right {
@@ -1606,11 +1612,13 @@ strong {
 .iconStudyingitem{
     height: 30px;
     width: 30px;
+    text-decoration: none;
 }
 
 .iconStudyingite:hover{
     transform: scale(1.1);
     transition: .2s;
+    text-decoration: none;
 }
 
 .Repetition{
@@ -8301,9 +8309,6 @@ section.case-study-next-project>div .desc i {
     gap: 10px;
     justify-content: flex-end;
     
-}
-.ff{
-    text-decoration: none;
 }
 
 .tamanhoimginsta{
