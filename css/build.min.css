@@ -1496,6 +1496,7 @@ a::-moz-focus-inner,button::-moz-focus-inner,input::-moz-focus-inner,select::-mo
 
 a {
     text-decoration: none;
+    color: #0e1322;
 }
 
 a:active {
